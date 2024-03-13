@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+  /*  outline: 1px solid green*/
+    }   
+h1{
+    text-align: center;
+    color: rgb(0, 89, 255);
+}
+h2{
+    color: blue;
+}
+.nav{
+    min-height: 15px;
+    padding: 10px;
+    font-size: 13px;
+    position: absolute;
+    top: 35px; left: 150vh;
+   display: flex;
+   list-style-type: none;
+ 
+  
+  }
+
+  .nav a{
+    background-color: rgb(91, 91, 202);
+    color: white;
+   text-decoration:none;
+   padding: 3px;
+   border-color: black;
+   border-style: double;
+   
+   
+   }
+
+   a[href="#"]{
+    background-color: rgb(89, 215, 89);
+  
+    }
+    table,th,tr,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 1rem;
+    }
+
+    th{
+        background-color: rgb(65, 110, 194);
+    }
+    
+    tbody tr:nth-child(2n+1){
+        background-color: rgb(109, 134, 76);
+    }
+    
+    tbody tr:nth-child(2n+2){
+        background-color: rgb(197, 211, 69);
+    }
+    p{
+      
+    }
+    body{
+        background-image: url(../assets/design1_image2.jpg);
+    }
+    footer{
+        background-color: rgb(83, 153, 130);
+        
+   
+    }

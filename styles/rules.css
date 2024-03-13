@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+  /*  outline: 1px solid green*/
+    }   
+
+   h1 {
+        text-align: center;
+      }
+   h2{
+       font-size: 4vh;
+       font-weight: 100;
+      }
+     h3, p{
+        margin: 5px;
+      }
+      
+      .nav{
+        min-height: 15px;
+        padding: 10px;
+        font-size: 13px;
+        position: absolute;
+        top: 35px; left: 150vh;
+       display: flex;
+       list-style-type: none;
+     
+      
+      }
+
+      .nav a{
+        background-color: rgb(91, 91, 202);
+        color: white;
+       text-decoration:none;
+       padding: 3px;
+       border-color: black;
+       border-style: double;
+       
+       
+       }
+
+       a[href="#"]{
+        background-color: rgb(89, 215, 89);
+      
+        }
+        
+        ol {
+            list-style: decimal;
+            padding-left: 40px;
+          }
+
+          .rules h3{
+            padding: 10px;
+          
+          }
+
+          body{
+            background-color:cornflowerblue ;
+          }
